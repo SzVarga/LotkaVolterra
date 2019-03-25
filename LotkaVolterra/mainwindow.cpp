@@ -21,6 +21,7 @@ void MainWindow::calculate()
     predator = QVector<double>::fromStdVector(model->getR());
     time = QVector<double>::fromStdVector(model->getTime());
 
+    //Plot data
     ui->LVPlot->addGraph();
     ui->LVPlot->addGraph();
     ui->LVPlot->graph(0)->setPen(QPen(QColor(Qt::GlobalColor::green)));
