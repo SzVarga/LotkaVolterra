@@ -12,6 +12,8 @@ public:
     void set_reprR(double);
     void set_deathB(double);
     void set_deathR(double);
+    void set_timestep(double);
+    void set_tMax(double);
 
     void explEulerSolve();
     void implEulerSolve();
