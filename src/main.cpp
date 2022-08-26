@@ -1,10 +1,10 @@
-#include "mainwindow.h"
+#include "include/mainwindow.h"
 #include <QApplication>
 
 #include <QDebug>
 #include <iostream>
 #include <vector>
-#include "simulation.h"
+#include "include/simulation.h"
 using std::cout; using std::endl;
 using std::vector;
 
