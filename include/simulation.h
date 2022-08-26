@@ -8,6 +8,8 @@ class Simulation
 {
 public:
     Simulation();
+    void set_B0(double);
+    void set_R0(double);
     void set_reprB(double);
     void set_reprR(double);
     void set_deathB(double);

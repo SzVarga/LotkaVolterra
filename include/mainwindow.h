@@ -22,6 +22,10 @@ private slots:
     void on_calcButton_clicked();
     void on_quitButton_clicked();
 
+    void on_changePlot_clicked();
+
+    void on_solverBox_currentIndexChanged(const QString &arg1);
+
 private:
     Ui::MainWindow *ui;
 
@@ -29,6 +33,9 @@ private:
     QVector<double> prey;
     QVector<double> predator;
     QVector<double> time;
+
+    bool timeSeries;
+    bool explEuler;
 };
 
 #endif // MAINWINDOW_H

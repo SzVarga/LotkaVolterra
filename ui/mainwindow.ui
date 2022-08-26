@@ -42,11 +42,39 @@
     <item row="0" column="2">
      <layout class="QVBoxLayout" name="verticalLayout">
       <item>
+       <widget class="QLabel" name="label_9">
+        <property name="text">
+         <string>Solver:</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QComboBox" name="solverBox">
+        <item>
+         <property name="text">
+          <string>Explicit Euler</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Implicit Euler</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_10">
+        <property name="text">
+         <string>Settings:</string>
+        </property>
+       </widget>
+      </item>
+      <item>
        <layout class="QHBoxLayout" name="horizontalLayout">
         <item>
          <widget class="QLabel" name="label">
           <property name="text">
-           <string>alpha:</string>
+           <string>repr prey:</string>
           </property>
          </widget>
         </item>
@@ -67,7 +95,7 @@
         <item>
          <widget class="QLabel" name="label_2">
           <property name="text">
-           <string>beta:</string>
+           <string>death r prey:</string>
           </property>
          </widget>
         </item>
@@ -88,7 +116,7 @@
         <item>
          <widget class="QLabel" name="label_3">
           <property name="text">
-           <string>delta:</string>
+           <string>repr pred:</string>
           </property>
          </widget>
         </item>
@@ -109,7 +137,7 @@
         <item>
          <widget class="QLabel" name="label_4">
           <property name="text">
-           <string>gamma:</string>
+           <string>death r pred:</string>
           </property>
          </widget>
         </item>
@@ -223,6 +251,20 @@
          </widget>
         </item>
        </layout>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_11">
+        <property name="text">
+         <string>Plot View</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="changePlot">
+        <property name="text">
+         <string>Change Plot View</string>
+        </property>
+       </widget>
       </item>
       <item>
        <spacer name="verticalSpacer">

@@ -13,6 +13,16 @@ Simulation::Simulation()
     R0 = 500;
 }
 
+void Simulation::set_B0(double new_B0)
+{
+    B0 = new_B0;
+}
+
+void Simulation::set_R0(double new_R0)
+{
+    R0 = new_R0;
+}
+
 void Simulation::set_reprB(double new_reprB)
 {
     reprB = new_reprB;
